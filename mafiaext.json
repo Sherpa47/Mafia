@@ -1,20 +1,14 @@
 [
     {
-        "name": "Canal de Ejemplo",
-        "url": "http://example.com/live/stream.m3u8",
-        "type": "exoplayer" // Tipo compatible con ExoPlayer
-        "logoUrl": "https://raw.githubusercontent.com/Sherpa47/Mafia/refs/heads/main/canal.png"
+        "name": "Canal de Televisión",
+        "url": "http://example.com/video.m3u8",
+        "logoUrl": "https://raw.githubusercontent.com/Sherpa47/Mafia/refs/heads/main/canal.png",
+        "type": "media" // "media" o "web"
     },
     {
-        "name": "Canal Externo",
-        "url": "http://externalapp.com/live/stream",
-        "type": "external" // Tipo que se abrirá en una aplicación externa
-        "logoUrl": "https://raw.githubusercontent.com/Sherpa47/Mafia/refs/heads/main/canal.png"
-    },
-    {
-        "name": "Otro Canal",
-        "url": "https://example.com/stream.mp4",
-        "type": "exoplayer" // Otro tipo compatible con ExoPlayer
-        "logoUrl": "https://raw.githubusercontent.com/Sherpa47/Mafia/refs/heads/main/canal.png"
+        "name": "Sitio Web",
+        "url": "http://example.com",
+        "logoUrl": "https://raw.githubusercontent.com/Sherpa47/Mafia/refs/heads/main/canal.png",
+        "type": "web" // "media" o "web"
     }
 ]
